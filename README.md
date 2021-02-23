@@ -42,6 +42,7 @@ http://localhost:3000/admin/posts/new
 
 ### Auth API
 API Endpoints that needs JWT Token authorization
+
 **Posts**
 - POST: http://localhost:8000/api/posts
 - PATCH: http://localhost:8000/api/posts/first-post
