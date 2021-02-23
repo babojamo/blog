@@ -37,3 +37,39 @@ http://localhost:3000/admin/posts/new
 # Todo
 - Replicate the front-end application to Vue JS
 - Upload project to a repo (Github, Gitlab, etc.)
+
+# Available End-points
+
+### Auth API
+API Endpoints that needs JWT Token authorization
+**Posts**
+POST: http://localhost:8000/api/posts
+PATCH: http://localhost:8000/api/posts/first-post
+DELETE: http://localhost:8000/api/posts/new-title
+
+**Posts/Comments**
+POST : http://localhost:8000/api/posts/first-post/comments
+PATCH: http://localhost:8000/api/posts/first-post/comments/1
+DELETE: http://localhost:8000/api/posts/first-post/comments/1
+
+**Logout**
+http://localhost:8000/api/logout
+
+### Guest API
+Public endpoints that don't need JWT Token
+
+**Posts**
+GET: http://localhost:8000/api/posts?=page=1
+GET: http://localhost:8000/api/posts/first-post
+
+**Posts/Comments**
+GET: http://localhost:8000/api/posts/first-post/comments
+
+
+
+**User Authorization**
+http://localhost:8000/api/register
+http://localhost:8000/api/login
+
+
+
