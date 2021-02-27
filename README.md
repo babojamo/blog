@@ -13,6 +13,20 @@ npm i
 ##### Laravel Packages
 composer install -d '[appdirectory]\api'
 
+### Setup Env File
+create .env file and copy .env.example content to the create .env
+
+Replace database values
+
+```
+DB_CONNECTION=mysql
+DB_HOST=host.docker.internal
+DB_PORT=4306
+DB_DATABASE=homestead
+DB_USERNAME=homestead
+DB_PASSWORD=secret
+```
+
 ## Run Servers
 For windows user you can run test.bat and it will run independent commands for Node and Laravel Test Server, for none  windows server run these commands independently
 ##### React Front End Test Server
