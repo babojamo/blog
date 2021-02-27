@@ -26,12 +26,12 @@ Laravel API Server http://localhost:8000
 # Application Usage
 ##### Account Registration
 Register a test account on the link below
-http://localhost:3000/admin/register
+http://localhost:3000/register
 ##### Account Registration
 After registration login your test account to start posting blogs
-http://localhost:3000/admin/login
+http://localhost:3000/login
 ##### Posting New Blog
-http://localhost:3000/admin/posts/new
+http://localhost:3000/posts/new
 
 
 # Todo
